@@ -1,129 +1,129 @@
-.edui-btn-toolbar .edui-btn .edui-icon-source {
-    background-position:-260px -0px;
+.edui-btn-toolbar .edui-btn .edui-icon-source:after {
+    content:"\e64e";
 }
-.edui-btn-toolbar .edui-btn .edui-icon-undo {
-    background-position: -160px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-undo:after {
+    content:"\e603";
 }
-.edui-btn-toolbar .edui-btn .edui-icon-redo {
-    background-position: -100px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-redo:after {
+    content:"\e602";
 }
-.edui-btn-toolbar  .edui-btn .edui-icon-bold{
-    background-position: 0 0;
+.edui-btn-toolbar  .edui-btn .edui-icon-bold:after{
+    content:"\e62b";
 }
-.edui-btn-toolbar  .edui-btn .edui-icon-italic {
-    background-position: -60px 0;
+.edui-btn-toolbar  .edui-btn .edui-icon-italic:after {
+    content:"\e644";
 }
-.edui-btn-toolbar  .edui-btn .edui-icon-underline  {
-    background-position: -140px 0
+.edui-btn-toolbar  .edui-btn .edui-icon-underline:after  {
+    content:"\e646";
 }
-.edui-btn-toolbar .edui-btn .edui-icon-strikethrough {
-    background-position: -120px 0;
-}
-
-.edui-btn-toolbar .edui-btn .edui-icon-superscript {
-    background-position: -620px 0;
-}
-.edui-btn-toolbar .edui-btn .edui-icon-subscript {
-    background-position:  -600px 0;
-}
-.edui-btn-toolbar .edui-btn .edui-icon-font, .edui-btn-toolbar .edui-btn .edui-icon-forecolor {
-    background-position: -720px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-strikethrough:after  {
+    content:"\e600"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-backcolor {
-    background-position: -760px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-superscript:after  {
+    content:"\e600"
+}
+.edui-btn-toolbar .edui-btn .edui-icon-subscript:after  {
+    content:"\e600"
+}
+.edui-btn-toolbar .edui-btn .edui-icon-font:after , .edui-btn-toolbar .edui-btn .edui-icon-forecolo:after r {
+    content:"\e600"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-insertorderedlist {
-    background-position: -80px 0;
-}
-.edui-btn-toolbar .edui-btn .edui-icon-insertunorderedlist {
-    background-position:   -20px 0;
-}
-.edui-btn-toolbar .edui-btn .edui-icon-selectall {
-    background-position: -400px -20px;
-}
-.edui-btn-toolbar .edui-btn .edui-icon-cleardoc {
-    background-position: -520px 0;
-}
-.edui-btn-toolbar .edui-btn .edui-icon-paragraph {
-    background-position: -140px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-backcolor:after  {
+    content:"\e600"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-fontfamily {
-    background-position: -140px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-insertorderedlist:after  {
+    content:"\e600"
+}
+.edui-btn-toolbar .edui-btn .edui-icon-insertunorderedlist:after  {
+    content:"\e600"
+}
+.edui-btn-toolbar .edui-btn .edui-icon-selectall:after  {
+    content:"\e600"
+}
+.edui-btn-toolbar .edui-btn .edui-icon-cleardoc:after  {
+    content:"\e600"
+}
+.edui-btn-toolbar .edui-btn .edui-icon-paragraph:after  {
+    content:"\e600"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-fontsize {
-    background-position: -140px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-fontfamily:after  {
+    content:"\e600"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-justifyleft {
-    background-position: -460px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-fontsize:after  {
+    content:"\e600"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-justifycenter {
-    background-position: -420px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-justifyleft:after  {
+    content:"\e649"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-justifyright {
-    background-position:-480px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-justifycenter:after  {
+    content:"\e647"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-justifyjustify {
-    background-position: -440px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-justifyright:after  {
+    content:"\e648"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-link {
-    background-position: -500px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-justifyjustify:after  {
+    content:"\e600"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-unlink {
-    background-position: -640px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-link:after  {
+    content:"\e64c"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-image {
-    background-position: -380px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-unlink:after  {
+    content:"\e64d"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-emotion {
-    background-position: -60px -20px;
-}
-.edui-btn-toolbar .edui-btn .edui-icon-video {
-    background-position: -320px -20px;
+.edui-btn-toolbar .edui-btn .edui-icon-image:after {
+    content:"\e64a"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-map {
-    background-position:  -40px -40px;
+.edui-btn-toolbar .edui-btn .edui-icon-emotion:after  {
+    content:"\e600"
+}
+.edui-btn-toolbar .edui-btn .edui-icon-video:after  {
+    content:"\e600"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-gmap {
-    background-position:  -260px -40px;
-}
-.edui-btn-toolbar .edui-btn .edui-icon-horizontal {
-    background-position: -360px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-map:after  {
+    content:"\e600"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-print {
-    background-position: -440px -20px;
+.edui-btn-toolbar .edui-btn .edui-icon-gmap:after  {
+    content:"\e600"
 }
-.edui-btn-toolbar .edui-btn .edui-icon-preview {
-    background-position: -420px -20px;
+.edui-btn-toolbar .edui-btn .edui-icon-horizontal:after  {
+    content:"\e600"
 }
 
-.edui-btn-toolbar .edui-btn-fullscreen{
+.edui-btn-toolbar .edui-btn .edui-icon-print:after  {
+    content:"\e600"
+}
+.edui-btn-toolbar .edui-btn .edui-icon-preview:after  {
+    content:"\e600"
+}
+
+.edui-btn-toolbar .edui-btn-fullscreen {
     float:right;
 }
-.edui-btn-toolbar .edui-btn .edui-icon-fullscreen {
-    background-position: -100px -20px;
+.edui-btn-toolbar .edui-btn .edui-icon-fullscreen:after  {
+    content:"\e638"
 }
 
-.edui-btn-toolbar .edui-btn .edui-icon-removeformat {
-    background-position: -580px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-removeformat:after  {
+    content:"\e600"
 }
-.edui-btn-toolbar .edui-btn .edui-icon-drafts {
-    background-position: -560px 0;
+.edui-btn-toolbar .edui-btn .edui-icon-drafts:after  {
+    content:"\e600"
 }
-.edui-btn-toolbar .edui-btn .edui-icon-formula {
-    background-position: -80px -20px;
+.edui-btn-toolbar .edui-btn .edui-icon-formula:after  {
+    content:"\e600"
 }

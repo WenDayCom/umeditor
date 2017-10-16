@@ -1,10 +1,14 @@
+var icon_text = new Array();
+icon_text['bold']="&#xe62b;";
+icon_text['italic']="b";
+icon_text['source']="s";
+
 //button 类
 UM.ui.define('button', {
     tpl: '<<%if : !${texttype}%>div class="edui-btn edui-btn-${icon} <%if : ${name}%>edui-btn-name-${name}<%/if%>" unselectable="on" onmousedown="return false" <%else%>a class="edui-text-btn"<%/if%><% if: ${title} %> data-original-title="${title}" <%/if%>> ' +
-        '<% if: ${icon} %><div unselectable="on" class="edui-icon-${icon} edui-icon"></div><%/if%><%if: ${text} %><span unselectable="on" onmousedown="return false" class="edui-button-label">${text}</span><%/if%>' +
+        '<% if: ${icon} %><div unselectable="on" class="layui-icon edui-icon-${icon} edui-icon"></div><%/if%><%if: ${text} %><span unselectable="on" onmousedown="return false" class="edui-button-label">${text}</span><%/if%>' +
         '<%if: ${caret} && ${text}%><span class="edui-button-spacing"></span><%/if%>' +
         '<% if: ${caret} %><span unselectable="on" onmousedown="return false" class="edui-caret"></span><%/if%></<%if: !${texttype}%>div<%else%>a<%/if%>>',
-
     defaultOpt: {
         text: '',
         title: '',
@@ -16,6 +20,7 @@ UM.ui.define('button', {
         }
     },
     init: function (options) {
+		//console.log(options);
         var me = this;
         
         me.root($(UM.utils.render(me.tpl, options)))

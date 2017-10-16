@@ -1,36 +1,16 @@
-/** 图标字体 **/
-@font-face {font-family: 'layui-icon';
-  src: url('../font/iconfont.eot?v=213');
-  src: url('../font/iconfont.eot?v=213#iefix') format('embedded-opentype'),
-  url('../font/iconfont.svg?v=213#iconfont') format('svg'),
-  url('../font/iconfont.woff?v=213') format('woff'),
-  url('../font/iconfont.ttf?v=213') format('truetype');
-}
-                    
-.layui-icon{
-  font-family:"layui-icon" !important;
-  font-size: 16px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.edui-container {
+.edui-container{
     position: relative;
-    border: 1px solid #d2d2d2;
-    /* box-shadow: 2px 2px 5px #d3d6da; */
+    border: 1px solid #d4d4d4;
+    box-shadow: 2px 2px 5px #d3d6da;
     background-color: #fff;
-    border-radius: 2px;
 }
-.edui-container .edui-toolbar {
+.edui-container .edui-toolbar{
     position: relative;
-    width: auto;
-    /* border-bottom: 1px solid #e1e1e1; */
-    /* box-shadow: 2px 2px 5px #d3d6da; */
+    width:auto;
+    border-bottom: 1px solid #e1e1e1;
+    box-shadow: 2px 2px 5px #d3d6da;
     background-color: #fafafa;
     z-index: 99999;
-    padding: 3px 5px;
-    border-bottom: 1px solid #e2e2e2;
 }
 .edui-toolbar .edui-btn-toolbar{
     position: relative;
